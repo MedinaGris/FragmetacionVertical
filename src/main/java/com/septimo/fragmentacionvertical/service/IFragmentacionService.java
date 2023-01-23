@@ -10,7 +10,7 @@ package com.septimo.fragmentacionvertical.service;
  */
 public interface IFragmentacionService {
 
-    public int[][] getGeneraAA(int[][] use, int[][] acc, int n, int k, int l);
+    public int[][] getGeneraAA(int[][] use, int[][] acc, int [][] ref, int n, int k, int l);
 
     public int[][] getGeneraCA(int[][] aa, int n, int k, int l);
 

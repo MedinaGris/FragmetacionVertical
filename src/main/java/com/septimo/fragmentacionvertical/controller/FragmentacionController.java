@@ -29,8 +29,8 @@ public class FragmentacionController {
     
     
     
-    public int[][] getGeneraAA(int [][] use, int [][] acc,int n,int k,int l){
-    return service.getGeneraAA(use, acc, n, k, l);
+    public int[][] getGeneraAA(int[][] use, int[][] acc, int [][] ref, int n, int k, int l){
+    return service.getGeneraAA(use, acc,ref, n, k, l);
     }
     
     public int[][] getGeneraCA(int [][] aa, int n,int k,int l){
